@@ -167,7 +167,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="309" y="403" name="events">
+<table x="309" y="403" name="events?">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -183,6 +183,7 @@
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
+<comment>is this necessary</comment>
 </table>
 <table x="612" y="326" name="misc_event">
 <row name="id" null="1" autoincrement="1">
@@ -214,7 +215,7 @@
 </row>
 <row name="event_id" null="1" autoincrement="0">
 <datatype>INTEGER</datatype>
-<default>NULL</default><relation table="events" row="id" />
+<default>NULL</default><relation table="events?" row="id" />
 </row>
 <key type="PRIMARY" name="">
 <part>id</part>
