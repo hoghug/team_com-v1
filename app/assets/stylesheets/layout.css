@@ -1,10 +1,21 @@
+/* ====================
+
+  ----- COLORS -----
+  pink: #D72C8C;
+  black: #2B2828;
+  turquoise: #16BECF;
+  white: #FFFFF3;
+  gray: #D5DBD8;
+
+==================== */
+
 html, body, div, img, span, h1, h2, h3, h4, p, ol, ul, li {
-  margin:0;
-  padding:0;
-  border:0;
-  text-align:left;
-  font-weight:normal;
-  vertical-align:baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: baseline;
 }
 
 * {
@@ -16,16 +27,59 @@ html, body, div, img, span, h1, h2, h3, h4, p, ol, ul, li {
 li {list-style-position: inside;}
 
 body {
-  background-image: url(http://subtlepatterns.com/patterns/old_wall.png);
+  background-image: url(http://subtlepatterns.com/patterns/carbon_fibre.png);
+  font-family: 'Roboto', sans-serif;
+  color: #D5DBD8;
 }
 
 
 #wrapper {
-  margin:65px auto 20px auto;
-  padding:20px;
-  width:800px;
+  margin: 65px auto 5% auto;
+  padding: 2%;
+  width: 80%;
   border-radius: 10px;
-  background-color: #BEB7A7;
+  background-image: url(http://subtlepatterns.com/patterns/micro_carbon.png);
 }
 
-.clear {clear:both;}
+.clear {clear: both;}
+
+
+/* General Headers */
+h1 {
+  margin: .1em 0 .3em 0;
+  color: #D72C8C;
+  font-weight: 700;
+}
+
+/* Bootstrap Overrides */
+
+/* NAV */
+nav {
+  background-image: url(http://subtlepatterns.com/patterns/micro_carbon.png);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFF3;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #D72C8C;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #D72C8C;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #D72C8C;
+}
+
+.navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #D72C8C;
+}
+
+
+/* FORMS */
+.form-group label {
+  font-weight: 500;
+}
