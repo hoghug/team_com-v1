@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: team_communication_development
+
+test:
+  adapter: postgresql
+  database: team_communication_test
